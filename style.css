@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+#container {
+    width: 94%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.list {
+    list-style: none;
+    display: inline;
+    margin: 40px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: x-large;
+    color: red;
+}
+
+.link:hover {
+    color: black;
+    font-size: large;
+    transition: 400ms;
+}
+
+.homecontent {
+    margin: 10% 0px 0px 10%;
+}
+
+#username {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+#kent {
+    font-family: "Protest Strike", sans-serif;
+    color: rgb(240, 6, 80);
+
+}
+
+#userdetails {
+    line-height: 2;
+}
+
+#download {
+    text-decoration: none;
+    background-color: rgb(255, 4, 50);
+    color: aliceblue;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: larger;
+}
+
+.homeimg {
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+
+}
+
+.gp1 {
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+
+}
+
+.homeimg:hover #shape {
+    bottom: 80px;
+}
+
+.homeimg:hover #girl {
+    left: 30%;
+}
+
+#about {
+    margin: 30% 0px 0px 8%;
+}
+
+.sectionhead {
+    text-align: center;
+
+}
+
+.mainhead {
+    font-size: 30px;
+}
+
+.subhead {
+    font-size: 30px;
+    color: red;
+}
+
+#big {
+    width: 85%
+}
+
+.aboutbody {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+
+.aboutcontent {
+    font-size: 20px;
+    margin-left: 10%;
+    /* text-align: justify; */
+}
+
+.information {
+    margin-top: 1.3rem;
+}
+
+.infobox {
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.infobox>span {
+    margin-left: 3rem;
+}
+
+#skills {
+    margin: 1% 8% 0px 8%;
+}
+
+.skillcontents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.progressbar {
+    margin-top: 120px;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+
+.barhead,
+.barpercent {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.basebar {
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.htmlbar {
+    background-color: rgb(14, 164, 214);
+    width: 88%;
+}
+
+.cssbar {
+    background-color: rgb(14, 164, 214);
+    width: 85%;
+}
+
+.jsbar {
+    background-color: rgb(14, 164, 214);
+    width: 72%;
+}
+
+.reactbar {
+    background-color: rgb(14, 164, 214);
+    width: 70%;
+}
+.skillimage{display: flex;
+    margin-left: 10%;
+}
+#contact {
+    margin: 10% 8% 0px 8%;
+}
+
+.iconcollections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.brands {
+    color: black;
+    font-size: 2rem;
+}
+
+/* for common color
+.icon:hover {
+    background-image: linear-gradient(to bottom right, red, orange, yellow);
+} */
+#linked:hover {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a66c2;
+}
+
+#git:hover {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#24292e;
+}
+
+#twit:hover {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,#1DA1F2,#009ffc);
+}
+#whats:hover {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25d366;
+}
+
+#insta:hover {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.icon:hover .brands {
+    color: white;
+    /*animation*/
+    animation: rotate 4s;
+    transition: 10ms;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform: rotate(-30deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+footer {
+    margin-top: 8%;
+}
+
+#copyright {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.uparrow {
+    float: right;
+    margin-top: 8%;
+    margin: 0px 5px;
+}
+
+.uparrow a {
+    text-decoration: none;
+}
+
+.arrow {
+    color: black;
+    font-size: 2rem;
+}
+
+.uparrow:hover .arrow {
+    color: white;
+    animation: rotate 4s;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px;
+    background-color: rgb(255, 4, 50);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(250, 141, 197);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 4, 50);
+    border-radius: 5px;
+}
